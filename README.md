@@ -3,13 +3,13 @@
 ### Server
 
 ```bash
-./vpn init [example.com]
-./vpn start
+bash vpn init [example.com]
+bash vpn start
 ```
 
 ### Clients
 
 ```bash
-./vpn add [client-name]
-./vpn remove [client-name]
+bash vpn add [client-name]
+bash vpn remove [client-name]
 ```
