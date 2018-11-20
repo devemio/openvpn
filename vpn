@@ -15,7 +15,7 @@ if [ $# -gt 0 ]; then
 
     elif [ "$1" == "add" ]; then
         shift 1
-        docker-compose run --rm openvpn easyrsa build-client-full $@
+        docker-compose run --rm openvpn easyrsa build-client-full $@ nopass
         docker-compose run --rm openvpn ovpn_getclient $@ > clients/$@.ovpn
 
     elif [ "$1" == "remove" ]; then
