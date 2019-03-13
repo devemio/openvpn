@@ -5,7 +5,9 @@ Based on [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn) image.
 ### Server
 
 ```bash
-bash vpn init [domain.com] # run once
+# Run once
+bash vpn init [domain.com]
+
 bash vpn start
 ```
 
