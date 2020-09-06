@@ -2,7 +2,7 @@
 
 Based on [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn) image.
 
-### 🔒 Server
+### Server
 
 ```bash
 # Run once
@@ -11,7 +11,7 @@ bash vpn init [domain.name]
 bash vpn start
 ```
 
-### 💡 Clients
+### Clients
 
 All client certificates are located in `clients/[client-name].ovpn`
 
