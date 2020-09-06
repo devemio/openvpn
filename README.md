@@ -9,7 +9,7 @@ Based on the [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn) ima
 Run once
 
 ```bash
-bash vpn init [domain.name]
+bash vpn init <domain.name>
 ```
 
 #### Start
@@ -26,16 +26,16 @@ bash vpn stop
 
 ### Clients
 
-All client certificates are located in `clients/[client-name].ovpn`
+All client certificates are located in `clients/*.ovpn`
 
 #### Add certificate
 
 ```bash
-bash vpn add [client-name]
+bash vpn add <client-name>
 ```
 
 #### Remove certificate
 
 ```bash
-bash vpn remove [client-name]
+bash vpn remove <client-name>
 ```
