@@ -1,14 +1,27 @@
 # OpenVPN server in Docker
 
-Based on [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn) image.
+Based on the [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn) image.
 
 ### Server
 
-```bash
-# Run once
-bash vpn init [domain.name]
+#### Configure
 
+Run once
+
+```bash
+bash vpn init [domain.name]
+```
+
+#### Start
+
+```bash
 bash vpn start
+```
+
+#### Stop
+
+```bash
+bash vpn stop
 ```
 
 ### Clients
