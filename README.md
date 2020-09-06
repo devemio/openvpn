@@ -28,7 +28,14 @@ bash vpn stop
 
 All client certificates are located in `clients/[client-name].ovpn`
 
+#### Add certificate
+
 ```bash
 bash vpn add [client-name]
+```
+
+#### Remove certificate
+
+```bash
 bash vpn remove [client-name]
 ```
